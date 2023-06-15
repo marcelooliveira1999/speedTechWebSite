@@ -1,0 +1,39 @@
+footer {
+  min-height: 40vh;
+  width: 100%;
+
+  background-color: #d0d0d0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2em 0 1em 0;
+}
+
+#contacts {
+  width: 80%;
+  min-height: 20vh;
+}
+
+#contactsTitle {
+  font-size: 2em;
+}
+
+#links {
+  min-height: 20vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+
+.link-text {
+  color: #000;
+}
+
+#copyrightContainer {
+  min-height: 1vh;
+}

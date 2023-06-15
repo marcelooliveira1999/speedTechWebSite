@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#eee" />
+
+    <title>Speed Tech</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./src/style/baseStyle.css" />
+    <link rel="stylesheet" href="./src/style/headerStyle.css" />
+    <link rel="stylesheet" href="./src/style/mainStyle.css" />
+    <link rel="stylesheet" href="./src/style/footerStyle.css" />
+    <link rel="stylesheet" href="./src/style/mediaQueries/mediaQueries.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="logoContainer">
+        <img id="logo" src="./assets/img/logo.png" alt="SpeedTechLogo" />
+      </div>
+      <nav id="navBar">
+        <a class="navBtn" href="#">Home</a>
+        <a class="navBtn" href="#services">Serviços</a>
+        <a class="navBtn" href="#contacts">Contatos</a>
+
+        <i id="navBtnClose" class="fa-solid fa-xmark"></i>
+      </nav>
+      <div id="mobileNavIcon">
+        <i id="navBtnBars" class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+
+    <main>
+      <section id="showcaseContainer">
+        <div id="showcase">
+          <h1 id="showcaseTitle">
+            Bem-vindo à <span>Speed Tech</span>,<br />
+            a sua parceira confiável em soluções tecnológicas<span>.</span>
+          </h1>
+          <br />
+          <h3 id="showcaseDescription">Somos uma empresa especializada em manutenção, reparos e upgrades de notebooks e PCs, e estamos prontos para impulsionar o desempenho dos seus dispositivos.</h3>
+        </div>
+        <figure id="showcaseImgContainer">
+          <img id="showcaseImg" src="./assets/img/showcase.png" alt="" />
+        </figure>
+      </section>
+
+      <section id="services">
+        <h3 id="servicesTitle">Serviços<span>.</span></h3>
+
+        <div id="servicesContainer">
+          <div id="gridAreaA" class="serviceItem">
+            <figure>
+              <img class="serviceImg" src="./assets/img-services/services-001.png" alt="" />
+            </figure>
+            <figcaption>
+              <h3 class="serviceName">
+                Manutenção <br />
+                preventiva
+              </h3>
+              <p class="serviceDescription">Limpeza interna, remoção de poeira e substituição de componentes, ajudando a prolongar a vida útil do seu notebook ou PC.</p>
+            </figcaption>
+          </div>
+
+          <div id="gridAreaB" class="serviceItem">
+            <figure>
+              <img class="serviceImg" src="./assets/img-services/services-005.png" alt="" />
+            </figure>
+            <figcaption>
+              <h3 class="serviceName">
+                Atualizações e <br />
+                melhorias
+              </h3>
+              <p class="serviceDescription">Memória RAM, Unidade de estado sólido (SSD) para maior desempenho, placas gráficas mais poderosas e outras melhorias personalizadas.</p>
+            </figcaption>
+          </div>
+
+          <div id="gridAreaC" class="serviceItem">
+            <figure>
+              <img class="serviceImg" src="./assets/img-services/services-002.png" alt="" />
+            </figure>
+            <figcaption>
+              <h3 class="serviceName">
+                Diagnóstico e solução <br />
+                de problemas
+              </h3>
+              <p class="serviceDescription">Análise completa do seu dispositivo para identificar e solucionar problemas de desempenho e erros de software ou hardware.</p>
+            </figcaption>
+          </div>
+
+          <div id="gridAreaD" class="serviceItem">
+            <figure>
+              <img class="serviceImg" src="./assets/img-services/services-003.png" alt="" />
+            </figure>
+            <figcaption>
+              <h3 class="serviceName">
+                Recuperação <br />
+                de dados
+              </h3>
+              <p class="serviceDescription">Falha no disco rígido ou exclusão acidental, podemos ajudar na recuperação de arquivos e informações valiosas.</p>
+            </figcaption>
+          </div>
+
+          <div id="gridAreaE" class="serviceItem">
+            <figure>
+              <img class="serviceImg" src="./assets/img-services/services-004.png" alt="" />
+            </figure>
+            <figcaption>
+              <h3 class="serviceName">
+                Configuração e instalação <br />
+                de software
+              </h3>
+              <p class="serviceDescription">Instalação e configuração de sistemas operacionais, programas, drivers e aplicativos.</p>
+            </figcaption>
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutMeContainer">
+        <p id="aboutMe">
+          Na <span>Speed Tech</span>, sabemos que a tecnologia é uma parte essencial do seu dia a dia, seja para o trabalho, estudos ou entretenimento. É por isso que nos dedicamos a fornecer serviços
+          de qualidade, rápidos e eficientes, para que você possa voltar a aproveitar ao máximo suas atividades sem interrupções. <br />
+          <span></span><br />
+          Nossa abordagem é baseada na <span>transparência</span>, <span>honestidade</span> e no <span>compromisso</span>
+          de oferecer soluções personalizadas. Trabalhamos apenas com peças de qualidade e ferramentas de última geração, garantindo um serviço confiável e duradouro.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <section id="contacts">
+        <h3 id="contactsTitle">Contatos<span>.</span></h3>
+        <div id="links">
+          <a class="link-text" href="https://instagram.com/speedtechassistencia?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram link-icon"></i> SpeedTech Oficial </a>
+          <a class="link-text" href="mailto:speedtechoficial@gmail.com"><i class="fa-solid fa-envelope link-icon"></i> speedtechoficial@gmail.com </a>
+          <a class="link-text" href="https://wa.me/5585997818579?text=Ol%C3%A1%2C+bem+vindo+a+SpeedTech"><i class="fa-brands fa-whatsapp link-icon"></i> (85) 9781-8579 </a>
+          <a class="link-text" href="https://wa.me/5585991707934?text=Ol%C3%A1%2C+bem+vindo+a+SpeedTech"><i class="fa-brands fa-whatsapp link-icon"></i> (85) 9170-7934 </a>
+        </div>
+      </section>
+
+      <section id="copyrightContainer">
+        <p>
+          &copy; 2023 <a href="https://beacons.ai/marcelooliver" target="_blank" rel="noopener"><span>Marcelo Oliveira.</span></a> Todos os direitos reservados.
+        </p>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./src/js/scrollReveal.js"></script>
+    <script src="https://kit.fontawesome.com/29c8ec5a74.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="./src/js/typeIt.js"></script>
+    <script src="./src/js/navAnimate.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+:root {
+  --text-gray: #4e535b;
+  --text-highlight: #db0000;
+  --bg-pri: #f0f0f0;
+  --bg-sec: #d0d0d0;
+}
+
+main {
+  min-height: 85vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 10vh;
+}
+
+#showcaseContainer {
+  width: 80%;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-bottom: 3em;
+}
+
+#showcase {
+  width: 45%;
+}
+
+#showcaseTitle {
+  font-size: 2.5rem;
+}
+
+#showcaseDescription {
+  min-height: 10rem;
+  font-size: 1.5rem;
+  color: var(--text-gray);
+}
+
+#showcaseImg {
+  height: 500px;
+
+  filter: drop-shadow(0 0 0.75rem var(--text-highlight));
+}
+
+span {
+  color: var(--text-highlight);
+}
+
+#services {
+  box-shadow: 0 0 0.5em 0.1em #999;
+  border-radius: 0.5em;
+  padding: 5em 5%;
+
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#servicesTitle {
+  font-size: 2.5em;
+  color: var(--text-gray);
+}
+
+#servicesContainer {
+  min-height: 100%;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas:
+    "A A B B C C"
+    ". D D E E .";
+
+  gap: 2em 1rem;
+  margin-top: 3em;
+}
+
+#gridAreaA {
+  grid-area: A;
+}
+#gridAreaB {
+  grid-area: B;
+}
+#gridAreaC {
+  grid-area: C;
+}
+#gridAreaD {
+  grid-area: D;
+}
+#gridAreaE {
+  grid-area: E;
+}
+
+.serviceItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  background-color: #b7b7b7;
+
+  padding: 3em;
+  gap: 2em;
+  opacity: 0.75;
+  transition: 500ms;
+}
+
+.serviceItem:hover {
+  box-shadow: 0 0 0.2em 0.1em #999;
+  opacity: 1;
+}
+
+.serviceImg {
+  height: 120px;
+  transition: 500ms;
+}
+
+.serviceName {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+#aboutMeContainer {
+  min-height: 50vh;
+  width: 100%;
+
+  padding-top: 10vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#aboutMe {
+  width: 60%;
+
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  text-align: center;
+}
