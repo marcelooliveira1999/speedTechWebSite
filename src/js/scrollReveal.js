@@ -39,18 +39,21 @@ ScrollReveal().reveal(".serviceImg", {
   origin: "bottom",
   duration: 1500,
   interval: 250,
+  reset: false,
 });
 
 ScrollReveal().reveal(".serviceName", {
   distance: "0",
   opacity: 0,
   interval: 200,
+  reset: false,
 });
 
 ScrollReveal().reveal(".serviceDescription", {
   distance: "0",
   opacity: 0,
   interval: 200,
+  reset: false,
 });
 
 ScrollReveal().reveal(".link-text", {

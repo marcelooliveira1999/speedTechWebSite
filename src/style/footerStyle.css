@@ -34,6 +34,10 @@ footer {
   color: #000;
 }
 
+.link-text:hover {
+  color: var(--text-hover);
+}
+
 #copyrightContainer {
   min-height: 1vh;
 }

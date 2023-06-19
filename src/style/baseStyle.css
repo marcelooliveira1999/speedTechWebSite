@@ -1,7 +1,9 @@
 :root {
   --text-gray: #998b8b;
+  --text-highlight: #db0000;
   --text-hover: #db0000;
   --bg-color: #f0f0f0;
+  --bg-sec: #e0e0e0;
 }
 
 ::-webkit-scrollbar {

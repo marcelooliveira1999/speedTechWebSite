@@ -3,6 +3,7 @@ header {
   width: 100%;
 
   position: fixed;
+  top: 0;
 
   display: flex;
   flex-direction: row;
@@ -11,9 +12,8 @@ header {
 
   z-index: 1;
 
-  background: rgba(39, 55, 77, 0.35);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(2px);
+  background-color: var(--bg-color);
+  transition: 400ms;
 }
 
 #logoContainer {
